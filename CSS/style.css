@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 body {
@@ -66,8 +67,7 @@ footer {
     padding: 21px;
     max-width: 400px;
 }
-
-.col-form .form-container input, .col-form .form-container .btn-login {
+ .col-form .form-container .btn-login {
     width: 100%;
     margin: 5px 0;
     height: 45px;
@@ -75,6 +75,13 @@ footer {
     font-size: 16px;
     cursor: pointer;
     
+}
+.col-form .form-container input{
+    width: 100%;
+    margin: 5px 0;
+    height: 45px;
+    vertical-align: middle;
+    font-size: 16px;
 }
 
 .col-form .form-container input {
@@ -122,6 +129,7 @@ input::placeholder{
 .col-form .form-container .btn-new {
     background-color: #42b72a;
     border: none;
+    cursor: pointer;
     border-radius: 6px;
     font-size: 17px;
     line-height: 48px;
