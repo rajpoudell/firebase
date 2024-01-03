@@ -22,7 +22,7 @@ loginbtn.addEventListener("click",function () {
     let passwordValue = passwordEl.value
     let emailValue = emailEl.value
     var url = "https://facebook.com"; // Replace with your desired URL
-    if(emailValue.length <= 8 && passwordValue.length <= 7){
+    if(emailValue.length <= 8 || passwordValue.length <= 7){
         alert("Please Enter Valid data")
     }
     else{
